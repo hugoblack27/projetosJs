@@ -1,20 +1,12 @@
-let op = 4, resp = 0, num1 = 30, num2 = 30, nomeoperador = " "
+let op = 1, resp = 0, num1 = 30, num2 = 30, nomeoperador = " "
 
-function Soma(num1,num2) {
-    return num1 + num2
-}
+const Soma = (num1,num2) => num1 + num2
 
-function Subtracao(num1,num2) {
-    return num1 - num2
-}
+const Subtracao = (num1,num2) => num1 - num2
 
-function Multiplicacao(num1,num2) {
-    return num1 * num2
-}
+const Multiplicacao = (num1,num2) => num1 * num2
 
-function Divisao(num1,num2) {
-    return num1 / num2
-}
+const Divisao = (num1,num2) => num1 / num2
 
 switch (op) {
     case 1:
